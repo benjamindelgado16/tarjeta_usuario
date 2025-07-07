@@ -1,0 +1,72 @@
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #918e8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 1000px;
+}
+
+
+.conten {
+    margin: 50px;
+    display: block;
+    background-color: #fff;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    top: 120px;
+    left: 160px;
+    border: solid 5px #fff;
+}
+
+.isagi {
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 100px;
+
+}
+
+h2 {
+    padding-top: 80px;
+    margin-top: 5px;
+}
+
+.desa {
+    color: #333333;
+    margin-top: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+.boton {
+    margin: 10px;
+}
+
+button {
+    background-color: #1f0263;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
